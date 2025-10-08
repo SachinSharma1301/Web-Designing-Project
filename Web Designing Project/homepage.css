@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(254, 253, 253);
+}
+.firstnav{
+    display: flex;
+    line-height: 30px;
+    background-color: rgb(97, 74, 45);
+    justify-content: flex-end;
+    padding-right: 45px;
+    font-size: 20px;
+    color: white;
+    
+}
+input{
+    background-color: rgb(97, 74, 45);
+    font-size: large;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+}
+.same{
+    margin: 20px;
+}
+.same12{
+    display: flex;
+}
+.same12:hover{
+    opacity: .5;
+}
+.secondnav{
+    display: flex;
+    line-height: 75px;
+    padding: 30px;
+    padding-left: 100px;
+
+}
+.one{
+    width: 50%;
+    letter-spacing: 0.35em;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.two{
+    display: flex;
+    padding-left: 120px;
+    
+}
+.menubar{
+    margin: 20px;
+    font-size: 18px;
+}
+.menubar a{
+    text-decoration: none;
+}
+#submt1:hover{
+   opacity: .5;
+}
+.image1{
+    background-attachment: scroll;
+}
+input{
+    padding: 10px;
+}
+.three{
+    display: flex;
+    margin: 40px;
+
+}
+.four{
+    width: 50%;
+    text-align: center;
+    padding-left: 160px;
+    padding-right:160px;
+    margin-top: 18%;
+}
+.head1{
+    font-size: 48px;
+    color: rgb(9,15,15);
+    font: normal normal normal 48px/1.4em forum, serif;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.p2{
+    line-height: 1.5em;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.view{
+    background-color: rgb(97, 74, 45) ;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 75px;
+
+}
+.view a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.view:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.five{
+    margin-right: 2%;
+}
+.foodimage{
+    margin-top: 3.5%;
+    height: 97%;
+    width: 100%;
+}
+.backgroundimage{
+    background-image: url(backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+}
+
+.six{
+    background-color: rgb(248, 245, 241);
+    color: black;
+    height: 500px;
+    width: 620px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 245px;
+    padding: 115px;
+}
+.six a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.aboutlowrence{
+    background-color: rgb(97, 74, 45) ;
+    width: 200px;
+    height: 50px;
+    margin-left: 80px;
+    padding-top: 15px;
+}
+ .aboutlowrence:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.six h2{
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.six p{
+    line-height:20px;
+    margin-bottom: 30px;
+}
+.reserve{
+    margin: 40px;
+    align-items: center;
+}
+.reserve_table{
+    display: flex;
+}
+.reserve_table div{
+    width: 100%;
+    margin: 20px;
+    justify-content: space-between;
+
+}
+.reserve_table input{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 250px;
+}
+.findtable{
+    color: white;
+    background-color: rgb(97, 74, 45);
+    text-align: center;
+    margin-top: 2.5%;
+    width: 600px;
+    height: 50px;
+    border: none;
+}
+.findtable:hover{
+    opacity: .5;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+table{
+    padding-left: 355px;
+    width: 80%;
+    padding-top: 100px;
+}
+table,th{
+    text-align:left;
+   
+}
+th{
+    font-size: 30px;
+    height: 85px;
+    font-weight: 100;
+}
+td{
+    height: 40px;
+    font-size: 18px;
+}
+hr{
+    width: 89%;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
